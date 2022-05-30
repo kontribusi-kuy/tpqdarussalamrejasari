@@ -1,0 +1,77 @@
+#preloader {
+	overflow: hidden !important;
+	background-image: url(../images/down.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	z-index: 9999;
+}
+
+.header-area .main-nav .nav li {
+	padding-left: 120px;
+	padding-right: 50px;
+}
+
+.mini:before {
+	background-image: url(../images/up.png);
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.welcome-area {
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/up.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	/* top: 150px; */
+}
+
+.welcome-area .header-text {
+	top: 75%;
+}
+
+.welcome-area .header-text h1 {
+	font-size: 64px;
+}
+
+.img-gallery {
+	width: 100%;
+	height: 100%;
+}
+
+.blog-post-thumb h3 {
+	font-weight: 500;
+	font-size: 18px;
+	color: #1e1e1e;
+	letter-spacing: 0.25px;
+	line-height: 26px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.welcome-area-up {
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/up.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 25vh;
+}
+
+footer .copyright {
+	margin-top: 0px;
+}
